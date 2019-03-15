@@ -1,0 +1,51 @@
+body {
+    background:url(../images/Giftastic_Body.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+label {
+    color: aqua
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serifs;
+}
+
+.ratings {
+    color:white;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+h1 {
+    color:white;
+    font-size: 45px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: black;
+    color:white;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: red;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
+}
